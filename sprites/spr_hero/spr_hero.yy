@@ -66,7 +66,7 @@
     },
     "name":"spr_hero",
     "playback":1,
-    "playbackSpeed":12.0,
+    "playbackSpeed":5.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
