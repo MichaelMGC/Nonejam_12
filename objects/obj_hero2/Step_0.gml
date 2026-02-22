@@ -1,13 +1,20 @@
 var _pulo = keyboard_check_pressed(vk_space);
+var _dash = keyboard_check_pressed(vk_lshift)
 var _colid = place_meeting(x,y,obj_pilar)
 // game juicy
 image_xscale = lerp(image_xscale,ix,0.1);
 image_yscale = lerp(image_yscale,iy,0.1);
 // colisão	
 if (!death){
+	if (_dash){
+		hspeed=dash
+		sprite_index=spr_hero2_dash;
+		image_speed=2.5;
+	}
 	if (_colid){
 		sprite_index=spr_death;
 		image_angle+=5;
+		image_speed=2.5;
 		death=true;
 		alarm[0]=70;
 		// função que para a velocidade horizontal de tudo 
@@ -20,29 +27,17 @@ if (!death){
 			image_yscale = iy+0.3;
 			image_speed=2;
 			vspeed = pulo;	
-			hspeed = impulso;
-		}else if (x>64) {
-			x-=0.5
 		}
-		if (x>250){
-			x-=0.5;
-		}
+		
 		
 
 	// criando fisica de angulo para gravidade e pulo
 		if (vspeed>3){
 			image_angle-=2;
-			if (x>30){
-				hspeed-=0.05;
-			}
 		}else if (vspeed<-3){
 			image_angle+=2;
-			if (x<320){
-				hspeed+=0.14;
-			}
 		}else{
 			image_angle =0;
-			hspeed=0;
 		}
 	// não permitir deslocamento para fora da room
 	if (y<-96 or y > 330){
@@ -51,4 +46,20 @@ if (!death){
 		alarm[0]=40;
 		death=true;
 	}
+}else {
+	if (image_index>=5){
+		room_restart();
+	}
 }
+if (x>500){
+	x-=3;
+}else if (x>400){
+	x-=2;
+}else if (x>300){
+	x--;
+}else if (x>64){
+	x-=0.1
+} else if (x<64){
+	x++;
+}
+	

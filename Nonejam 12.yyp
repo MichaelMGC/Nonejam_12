@@ -52,6 +52,7 @@
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_hero_caixa","path":"sprites/spr_hero_caixa/spr_hero_caixa.yy",},},
     {"id":{"name":"spr_hero","path":"sprites/spr_hero/spr_hero.yy",},},
+    {"id":{"name":"spr_hero2_dash","path":"sprites/spr_hero2_dash/spr_hero2_dash.yy",},},
     {"id":{"name":"spr_hero2","path":"sprites/spr_hero2/spr_hero2.yy",},},
     {"id":{"name":"spr_lua","path":"sprites/spr_lua/spr_lua.yy",},},
     {"id":{"name":"spr_nuvens_2","path":"sprites/spr_nuvens_2/spr_nuvens_2.yy",},},
