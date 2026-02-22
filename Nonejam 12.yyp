@@ -10,9 +10,9 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"sequences","folderPath":"folders/sequences.yy","name":"sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sequences","folderPath":"folders/sequences.yy","name":"sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"backgroud","folderPath":"folders/Sprites/backgroud.yy","name":"backgroud","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -32,6 +32,7 @@
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
     {"id":{"name":"obj_boton","path":"objects/obj_boton/obj_boton.yy",},},
     {"id":{"name":"obj_caixa","path":"objects/obj_caixa/obj_caixa.yy",},},
+    {"id":{"name":"obj_celular_2","path":"objects/obj_celular_2/obj_celular_2.yy",},},
     {"id":{"name":"obj_celular","path":"objects/obj_celular/obj_celular.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_fundo","path":"objects/obj_fundo/obj_fundo.yy",},},
@@ -44,7 +45,9 @@
     {"id":{"name":"rm_sonho","path":"rooms/rm_sonho/rm_sonho.yy",},},
     {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},},
     {"id":{"name":"spr_caixa","path":"sprites/spr_caixa/spr_caixa.yy",},},
+    {"id":{"name":"spr_celulcar_2","path":"sprites/spr_celulcar_2/spr_celulcar_2.yy",},},
     {"id":{"name":"spr_celulcar","path":"sprites/spr_celulcar/spr_celulcar.yy",},},
+    {"id":{"name":"spr_codando","path":"sprites/spr_codando/spr_codando.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_hero_caixa","path":"sprites/spr_hero_caixa/spr_hero_caixa.yy",},},
@@ -67,8 +70,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_dia","path":"rooms/rm_dia/rm_dia.yy",},},
-    {"roomId":{"name":"rm_sonho","path":"rooms/rm_sonho/rm_sonho.yy",},},
     {"roomId":{"name":"rm_noite","path":"rooms/rm_noite/rm_noite.yy",},},
+    {"roomId":{"name":"rm_sonho","path":"rooms/rm_sonho/rm_sonho.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

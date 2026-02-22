@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_celular",
+  "%Name":"obj_celular_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_celular",
+  "name":"obj_celular_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_celulcar",
-    "path":"sprites/spr_celulcar/spr_celulcar.yy",
+    "name":"spr_celulcar_2",
+    "path":"sprites/spr_celulcar_2/spr_celulcar_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

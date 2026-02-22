@@ -22,8 +22,10 @@ var _caixa = instance_place(x,y,obj_caixa)
 // se tiver pisando no bloco posso pular
 if (_caixa){
 	if (_down){
-	sprite_index=spr_hero_caixa;
-	carrega =true;
+		if (sprite_index==spr_hero){
+			sprite_index=spr_hero_caixa;
+			carrega =true;
+		}
 	}
 }
 if (_bloco){
