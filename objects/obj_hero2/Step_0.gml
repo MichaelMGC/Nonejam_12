@@ -8,7 +8,6 @@ if (!death){
 	if (_colid){
 		sprite_index=spr_death;
 		image_angle+=5;
-		alarm[0]=40;
 		death=true;
 		// função que para a velocidade horizontal de tudo 
 		// criada no script
@@ -18,10 +17,16 @@ if (!death){
 			// game juicy
 			image_xscale = ix-0.3;
 			image_yscale = iy+0.3;
-			image_index=1;
 			image_speed=2;
 			vspeed = pulo;	
+			hspeed = impulso;
+		}else if (x>64) {
+			x-=0.5
 		}
+		if (x>250){
+			x-=0.5;
+		}
+		
 
 	// criando fisica de angulo para gravidade e pulo
 		if (vspeed>3){
