@@ -8,17 +8,18 @@ tpe =random_range(300,800)
 tpm =random_range(350,900)
 tpg =random_range(600,1800)
 tpoff =choose(60,300,400)
-ye  =random_range(32,190)
+yp  =random_range(64,290)
 yc =random_range(120,190)
 var _objetivo = levels[level]
-/*
+
 if (tempo>=999){
 	tempo = 1000;
 }
 if (pilar ){
-	alarm[0]=tpt;
-	arvore=false;
+	alarm[0]=tpp;
+	pilar=false;
 }
+/*
 if (coluna){
 	alarm[6]=tpo
 	obstaculo=false;

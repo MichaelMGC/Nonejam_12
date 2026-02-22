@@ -9,6 +9,7 @@ if (!death){
 		sprite_index=spr_death;
 		image_angle+=5;
 		death=true;
+		alarm[0]=70;
 		// função que para a velocidade horizontal de tudo 
 		// criada no script
 	}
