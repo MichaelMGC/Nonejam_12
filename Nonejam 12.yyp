@@ -49,6 +49,7 @@
     {"id":{"name":"spr_celulcar","path":"sprites/spr_celulcar/spr_celulcar.yy",},},
     {"id":{"name":"spr_codando","path":"sprites/spr_codando/spr_codando.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
+    {"id":{"name":"spr_eyes","path":"sprites/spr_eyes/spr_eyes.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_hero_caixa","path":"sprites/spr_hero_caixa/spr_hero_caixa.yy",},},
     {"id":{"name":"spr_hero","path":"sprites/spr_hero/spr_hero.yy",},},
