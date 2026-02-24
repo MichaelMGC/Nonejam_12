@@ -9,7 +9,8 @@ tpm =random_range(350,900)
 tpg =random_range(600,1800)
 tpoff =choose(60,300,400)
 yp  =random_range(64,290)
-yc =random_range(120,190)
+yc =random_range(64,220)
+ye =random_range(140,280)
 var _objetivo = levels[level]
 
 if (tempo>=999){
@@ -19,15 +20,17 @@ if (pilar ){
 	alarm[0]=tpp;
 	pilar=false;
 }
-/*
+
 if (coluna){
-	alarm[6]=tpo
-	obstaculo=false;
+	alarm[1]=tpc;
+	coluna=false;
 }
+
 if (eyes){
-	alarm[4]=tpd;
-	dna =false;
+	alarm[2]=tpe;
+	eyes =false;
 }
+/*
 // velocidade da layer acompanha o level
 
 if (tempo>=_objetivo){

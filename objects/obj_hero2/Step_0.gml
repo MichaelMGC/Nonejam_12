@@ -1,6 +1,6 @@
 var _pulo = keyboard_check_pressed(vk_space);
 var _dash = keyboard_check_pressed(vk_lshift)
-var _colid = place_meeting(x,y,obj_pilar)
+var _colid = place_meeting(x,y,obj_inimigo)
 // game juicy
 image_xscale = lerp(image_xscale,ix,0.1);
 image_yscale = lerp(image_yscale,iy,0.1);

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pilar",
+  "%Name":"obj_eyes",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pilar",
+  "name":"obj_eyes",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pilar",
-    "path":"sprites/spr_pilar/spr_pilar.yy",
+    "name":"spr_eyes",
+    "path":"sprites/spr_eyes/spr_eyes.yy",
   },
   "spriteMaskId":null,
   "visible":true,
