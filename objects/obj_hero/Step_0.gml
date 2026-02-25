@@ -18,7 +18,7 @@ if (velh!=0){
 velv+=grav;
 // PULO //////
 var _bloco	= place_meeting(x, y + 1, obj_bloco);
-var _caixa = instance_place(x,y,obj_caixa)
+var _caixa = place_meeting (x+2,y,obj_caixa)
 // se tiver pisando no bloco posso pular
 if (_caixa){
 	if (_down){
