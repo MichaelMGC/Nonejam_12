@@ -1,15 +1,16 @@
 var _pulo = keyboard_check_pressed(vk_space);
-var _dash = keyboard_check_pressed(vk_lshift)
+var _dash = keyboard_check_pressed(vk_down)
 var _colid = place_meeting(x,y,obj_inimigo)
 // game juicy
 image_xscale = lerp(image_xscale,ix,0.1);
 image_yscale = lerp(image_yscale,iy,0.1);
 // colisão	
 if (!death){
-	if (_dash){
-		hspeed=dash
-		sprite_index=spr_hero2_dash;
-		image_speed=2.5;
+	if (_dash and global.poder){
+		obj_controle.image_speed=1;
+		instance_create_layer(x,y,"Instances",obj_dash)
+		instance_destroy();
+		global.poder=false;
 	}
 	if (_colid){
 		sprite_index=spr_death;
