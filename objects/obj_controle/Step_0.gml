@@ -5,8 +5,7 @@ tpc =choose(150,200,300)
 //random range (sorteia de um numero para outro)
 tpe =random_range(300,400)
 tpu =random_range(100,200)
-tpg =random_range(600,1800)
-tpoff =choose(60,300,400)
+
 yp  =random_range(64,290)
 yc =random_range(64,220)
 ye =random_range(140,280)
@@ -36,27 +35,8 @@ if (up){
 	alarm[3]=tpu;
 	up=false;
 }
-
-
-/*
-// velocidade da layer acompanha o level
-
-if (tempo>=_objetivo){
-	level++;
+show_debug_message(tempo)
+if (tempo>100){
+	room_goto_next()
 }
 
-if (level>0){
-	tpp = tpp -20
-	if (meet){
-	alarm[2]=tpm;
-	meet=false;
-	}
-	
-}
-if (level>1){
-	tpp = tpp -10
-	if (giant){
-	alarm[3]=tpg;
-	giant=false;
-	}
-}

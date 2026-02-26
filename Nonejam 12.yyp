@@ -84,7 +84,6 @@
     {"id":{"name":"spr_power","path":"sprites/spr_power/spr_power.yy",},},
     {"id":{"name":"spr_prensa","path":"sprites/spr_prensa/spr_prensa.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
-    {"id":{"name":"spr_referencia","path":"sprites/spr_referencia/spr_referencia.yy",},},
     {"id":{"name":"spr_solo","path":"sprites/spr_solo/spr_solo.yy",},},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},},
     {"id":{"name":"spr_up","path":"sprites/spr_up/spr_up.yy",},},

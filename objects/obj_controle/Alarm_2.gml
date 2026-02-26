@@ -1,2 +1,2 @@
-instance_create_layer(x+700,y+ye,"Instances",obj_eyes)
-coluna = true;
+instance_create_layer(x+700,y+320,"Instances",obj_eyes)
+eyes = true;

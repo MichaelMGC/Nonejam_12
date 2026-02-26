@@ -7,7 +7,7 @@ image_yscale = lerp(image_yscale,iy,0.1);
 // colisão	
 if (!death){
 	if (_dash and global.poder){
-		obj_controle.image_speed=1;
+		obj_controle.image_speed=1.5;
 		instance_create_layer(x,y,"Instances",obj_dash)
 		instance_destroy();
 		global.poder=false;
@@ -41,7 +41,7 @@ if (!death){
 			image_angle =0;
 		}
 	// não permitir deslocamento para fora da room
-	if (y<-96 or y > 330){
+	if (y<-96 or y > 340){
 		sprite_index=spr_death;
 		image_angle+=5;
 		alarm[0]=40;
@@ -63,4 +63,5 @@ if (x>500){
 } else if (x<64){
 	x++;
 }
+
 	
