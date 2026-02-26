@@ -17,3 +17,4 @@ inputs	= {
 		Jump	: vk_space,
 		down    : vk_down
 }
+	

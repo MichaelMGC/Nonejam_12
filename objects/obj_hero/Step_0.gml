@@ -1,9 +1,10 @@
+
 // CONTROLANDO HERO ///////////
 var _left, _right, _jump ,_down;
 	_left	= keyboard_check(inputs.left);
 	_right	= keyboard_check(inputs.right);
 	_jump	= keyboard_check_pressed(inputs.Jump);
-	_down   = keyboard_check_pressed(inputs.down);
+	_down   = keyboard_check(inputs.down);
 // timer dano trava os controles
 //if (timer_dano <= 0){
 velh = (_right - _left) * vel;
@@ -18,9 +19,10 @@ if (velh!=0){
 velv+=grav;
 // PULO //////
 var _bloco	= place_meeting(x, y + 1, obj_bloco);
-var _caixa = place_meeting (x+2,y,obj_caixa)
+var _caixae = place_meeting (x-5,y,obj_caixa)
+var _caixad = place_meeting (x+5,y,obj_caixa)
 // se tiver pisando no bloco posso pular
-if (_caixa){
+if (_caixae or _caixad){
 	if (_down){
 		if (sprite_index==spr_hero){
 			sprite_index=spr_hero_caixa;
@@ -47,5 +49,8 @@ if (_bloco){
 			image_index=0;
 		}
 	}
+		
+
+	
 
 
