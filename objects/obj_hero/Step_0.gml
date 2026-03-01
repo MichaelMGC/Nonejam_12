@@ -8,7 +8,6 @@ var _left, _right, _jump ,_down;
 // timer dano trava os controles
 //if (timer_dano <= 0){
 velh = (_right - _left) * vel;
-
 // lado da sprite é baseado na velocidade vertical
 if (velh!=0){
 	image_xscale = sign(velh);
@@ -25,6 +24,7 @@ var _caixad = place_meeting (x+5,y,obj_caixa)
 if (_caixae or _caixad){
 	if (_down){
 		if (sprite_index==spr_hero){
+			audio_play_sound(snd_pegar,1,0)
 			sprite_index=spr_hero_caixa;
 			carrega =true;
 		}

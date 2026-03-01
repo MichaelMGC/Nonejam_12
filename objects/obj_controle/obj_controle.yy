@@ -31,7 +31,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"maxtempo","filters":[],"listItems":[],"multiselect":false,"name":"maxtempo","rangeEnabled":false,"rangeMax":10000.0,"rangeMin":100.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"700","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
