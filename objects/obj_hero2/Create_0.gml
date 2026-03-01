@@ -1,5 +1,5 @@
 gravity=0.1;
-pulo = -4.5;
+pulo = -4;
 impulso =0.5;
 dash = 4
 ix = image_xscale;

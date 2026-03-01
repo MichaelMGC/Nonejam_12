@@ -51,7 +51,7 @@ if (!death){
 		alarm[0]=40;
 		death=true;
 		if (infinito){
-		show_message("Sua Pontuação foi :"+ obj_controle.tempo)
+		show_message("Sua Pontuação foi :"+ string (obj_controle.tempo))
 		}
 	}
 }else {
@@ -59,7 +59,7 @@ if (!death){
 		room_restart();
 		audio_stop_sound(snd_musica)
 		if (infinito){
-		show_message("Sua Pontuação foi :"+ obj_controle.tempo)
+		show_message("Sua Pontuação foi :"+ string (obj_controle.tempo))
 		}
 	}
 }
